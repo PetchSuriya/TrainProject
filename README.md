@@ -58,7 +58,7 @@ Git TIPS
 
 
 ** Remote repo
-> git branch -M main
+> git branch -M main                                    
 > git remote add origin https://github.com/....
 > git push -u origin main
 
