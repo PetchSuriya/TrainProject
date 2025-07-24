@@ -28,13 +28,14 @@ Git TIPS
  > git config --global -l 
  เพื่อดู config 
 
-=============================================================================
+===========================================================================
 วงจรการทำงานกับ Git
 
 แก้ไขไฟล์ => git add . => git commit -m "...."
 
 การ commit 1 ครั้ง คือการเก็บสภาพโฟลเดอร์นั้นไว้ 1 ชุด
-=============================================================================
+
+===========================================================================
 
 ** git init (ทำตอนเริ่ม project ครั้งเดียว)
 > git init 
@@ -60,6 +61,16 @@ Git TIPS
 ** Remote repo
 > git branch -M main                                    
 > git remote add origin https://github.com/....
-> git push -u origin main
+> git push -u origin main (ครั้งแรก) / git push
 
 
+** Branch concept คำสั้ง  
+> git branch                   #show branch 
+> git branch <branch name>     #create branch 
+> git branch -b <branch name>  #create branch and switch to branch
+> git checkout <branch name>   #switch to branch 
+
+> git checkout master          #switch to master branch 
+> git merge <branch name>      #merge branch
+
+> git branch -d <branch name>  #delete branch       g
