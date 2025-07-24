@@ -73,4 +73,10 @@ Git TIPS
 > git checkout master          #switch to master branch 
 > git merge <branch name>      #merge branch
 
-> git branch -d <branch name>  #delete branch       g
+> git branch -d <branch name>  #delete branch    
+
+** Git Clone 
+> git clone https://github.com/....
+
+** git conflict 
+> git pull 
