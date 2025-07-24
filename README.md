@@ -64,8 +64,13 @@ Git TIPS
 > git push -u origin main (ครั้งแรก) / git push
 
 
-** Branch concept คำสั้ง 
-> git branch
-> git branch <branch name>     #สร้าง branch ใหม่
-> git branch -b <branch name>
-> git checkout <branch name>
+** Branch concept คำสั้ง  
+> git branch                   #show branch 
+> git branch <branch name>     #create branch 
+> git branch -b <branch name>  #create branch and switch to branch
+> git checkout <branch name>   #switch to branch 
+
+> git checkout master          #switch to master branch 
+> git merge <branch name>      #merge branch
+
+> git branch -d <branch name>  #delete branch       
